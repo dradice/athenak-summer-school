@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: instructor1.jpg
+alt: Instructor 1 Photo
+name: Dr. Example Instructor
+affiliation: University of Example
+research-area: Computational Astrophysics
+website: https://example.edu/~instructor
+bio: Dr. Example Instructor is a leading researcher in computational astrophysics with expertise in magnetohydrodynamics and numerical relativity. They have published extensively on black hole simulations and neutron star mergers.
+---
