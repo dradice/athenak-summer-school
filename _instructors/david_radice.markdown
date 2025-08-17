@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-img: placeholder.jpg
+img: david_radice.jpg
 alt: Dr. David Radice Photo
 name: Dr. David Radice
 affiliation: Penn State University
