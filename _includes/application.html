@@ -1,5 +1,5 @@
 <!-- Application Section -->
-<section id="contact">
+<section id="application">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -10,7 +10,7 @@
     </div>
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
-        <form action="//formspree.io/{{ site.email }}" method="POST" name="applicationForm" id="applicationForm" novalidate>
+        <form action="//formspree.io/f/mblkeobq" method="POST" name="applicationForm" id="applicationForm">
           <!-- Personal Information -->
           <div class="row">
             <div class="col-md-6">
@@ -44,19 +44,10 @@
 
           <!-- Academic Information -->
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="form-group floating-label-form-group controls">
                 <label for="institution">Current Institution</label>
-                <input type="text" name="institution" class="form-control" placeholder="University/Institution" id="institution" required
-                  data-validation-required-message="Please enter your institution.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group floating-label-form-group controls">
-                <label for="department">Department</label>
-                <input type="text" name="department" class="form-control" placeholder="Department/Field" id="department" required
-                  data-validation-required-message="Please enter your department.">
+                <input type="text" name="institution" class="form-control" placeholder="University/Institution" id="institution">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -68,7 +59,7 @@
                 <label for="level">Academic Level</label>
                 <select name="level" class="form-control" id="level" required
                   data-validation-required-message="Please select your academic level." style="height: 50px;">
-                  <option value="">Select Academic Level</option>
+                  <option value="" disabled selected>Select Academic Level</option>
                   <option value="undergraduate">Undergraduate Student</option>
                   <option value="graduate">Graduate Student</option>
                   <option value="postdoc">Postdoctoral Researcher</option>
@@ -94,8 +85,7 @@
                 <label for="programming">Programming Experience</label>
                 <textarea rows="3" name="programming" class="form-control" 
                   placeholder="Describe your programming experience (languages, computational physics background, etc.)" 
-                  id="programming" required
-                  data-validation-required-message="Please describe your programming experience."></textarea>
+                  id="programming"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -108,8 +98,7 @@
                 <label for="research">Research Interests & Motivation</label>
                 <textarea rows="4" name="research" class="form-control" 
                   placeholder="Describe your research interests and motivation for attending the AthenaK Summer School" 
-                  id="research" required
-                  data-validation-required-message="Please describe your research interests and motivation."></textarea>
+                  id="research"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
