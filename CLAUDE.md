@@ -74,4 +74,4 @@ description: [project description]
 
 ## Deployment
 
-Site is configured for GitHub Pages deployment at `https://dur566.github.io/athenak-summerschool/`.
+Site is configured for GitHub Pages deployment at `https://dradice.github.io/athenak-summer-school/`.
