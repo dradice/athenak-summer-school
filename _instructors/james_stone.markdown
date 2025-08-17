@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 7
-img: james_stone.jpg
+img: placeholder.jpg
 alt: Dr. James Stone Photo
 name: Dr. James Stone
 affiliation: Institute for Advanced Study

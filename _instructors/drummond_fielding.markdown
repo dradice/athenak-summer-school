@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-img: drummond_fielding.jpg
+img: placeholder.jpg
 alt: Dr. Drummond Fielding Photo
 name: Dr. Drummond Fielding
 affiliation: New York University

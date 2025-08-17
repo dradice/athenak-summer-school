@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 5
-img: goni_halevi.jpg
+img: placeholder.jpg
 alt: Dr. Goni Halevi Photo
 name: Dr. Goni Halevi
 affiliation: Illinois Institute of Technology

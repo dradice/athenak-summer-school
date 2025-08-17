@@ -11,11 +11,6 @@
       {% for instructor in site.instructors %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#instructorModal-{{ instructor.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-user fa-3x"></i>
-            </div>
-          </div>
           <img src="img/instructors/{{ instructor.img }}" class="img-responsive" alt="{{ instructor.alt }}">
         </a>
         <div class="instructor-info text-center">

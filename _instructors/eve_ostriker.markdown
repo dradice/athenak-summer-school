@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-img: eve_ostriker.jpg
+img: placeholder.jpg
 alt: Dr. Eve Ostriker Photo
 name: Dr. Eve Ostriker
 affiliation: Princeton University

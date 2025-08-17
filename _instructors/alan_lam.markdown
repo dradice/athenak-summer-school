@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-img: alan_lam.jpg
+img: placeholder.jpg
 alt: Dr. Alan Lam Photo
 name: Dr. Alan Lam
 affiliation: Penn State University
