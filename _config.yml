@@ -1,7 +1,7 @@
 # Site settings
 title: AthenaK Summer School
 email: david.radice@psu.edu
-url: https://dradice.github.io/athenak-summerschool/
+url: https://dradice.github.io/athenak-summer-school/
 description: "AthenaK summer school is a 2-weeks summer school on computational astrophysics with the AthenaK code."
 keywords: "AthenaK, MHD, astrophysics, numerical relativity, Penn State University"
 skills: "Get started with AthenaK, learn how to use the code, and apply it to astrophysical problems."
