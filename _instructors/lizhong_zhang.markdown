@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 9
-img: placeholder.jpg
+img: lizhong_zhang.jpg
 alt: Lizhong Zhang Photo
 name: Lizhong Zhang
 affiliation: Institute for Advanced Study
