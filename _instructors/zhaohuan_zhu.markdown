@@ -2,8 +2,8 @@
 layout: default
 modal-id: 8
 img: placeholder.jpg
-alt: Dr. Zhaohuan Zhu Photo
-name: Dr. Zhaohuan Zhu
+alt: Zhaohuan Zhu Photo
+name: Zhaohuan Zhu
 affiliation: University of Nevada, Las Vegas
 research-area: Planet Formation & Protoplanetary Disks
 website: https://www.physics.unlv.edu/~zhzhu/Home.html

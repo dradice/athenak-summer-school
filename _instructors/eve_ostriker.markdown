@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 4
-img: placeholder.jpg
-alt: Dr. Eve Ostriker Photo
-name: Dr. Eve Ostriker
+img: eve_ostriker.jpg
+alt: Eve Ostriker Photo
+name: Eve Ostriker
 affiliation: Princeton University
 research-area: Star Formation & Interstellar Medium
 website: https://www.astro.princeton.edu/~eco/

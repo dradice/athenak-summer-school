@@ -2,8 +2,8 @@
 layout: default
 modal-id: 2
 img: david_radice.jpg
-alt: Dr. David Radice Photo
-name: Dr. David Radice
+alt: David Radice Photo
+name: David Radice
 affiliation: Penn State University
 research-area: Computational Astrophysics & Numerical Relativity
 website: https://personal.science.psu.edu/dur566/

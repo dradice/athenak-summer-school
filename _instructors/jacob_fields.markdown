@@ -2,8 +2,8 @@
 layout: default
 modal-id: 6
 img: placeholder.jpg
-alt: Dr. Jacob Fields Photo
-name: Dr. Jacob Fields
+alt: Jacob Fields Photo
+name: Jacob Fields
 affiliation: Institute for Advanced Study
 research-area: Numerical Relativity & Binary Mergers
 website: https://sites.psu.edu/numrel/members/jacob-fields/
