@@ -1,5 +1,5 @@
 <!-- Instructor Modals -->
-{% for instructor in site.instructors %}
+{% for instructor in site.instructors | sort: 'name' %}
 <div class="portfolio-modal modal fade" id="instructorModal-{{ instructor.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
