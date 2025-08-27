@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 6
-img: placeholder.jpg
+img: jacob_fields.jpg
 alt: Jacob Fields Photo
 name: Jacob Fields
 affiliation: Institute for Advanced Study
