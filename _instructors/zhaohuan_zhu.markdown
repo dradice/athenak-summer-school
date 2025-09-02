@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 8
-img: placeholder.jpg
+img: zhaohuan_zhu.jpg
 alt: Zhaohuan Zhu Photo
 name: Zhaohuan Zhu
 affiliation: University of Nevada, Las Vegas
