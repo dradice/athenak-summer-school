@@ -1,0 +1,180 @@
+<!-- Flyer Section -->
+<section id="flyer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Download Flyer</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="flyer-container">
+          <div class="flyer-header">
+            <h3><strong>AthenaK Summer School 2026</strong></h3>
+            <h4>Computational Astrophysics Intensive Program</h4>
+          </div>
+          
+          <div class="flyer-content">
+            <div class="row">
+              <div class="col-md-6 text-left">
+                <h5><i class="fa fa-calendar flyer-icon"></i> <strong>When:</strong></h5>
+                <p>Summer 2026 (Dates TBA)</p>
+                
+                <h5><i class="fa fa-map-marker flyer-icon"></i> <strong>Where:</strong></h5>
+                <p>Penn State University<br>University Park, PA</p>
+                
+                <h5><i class="fa fa-clock-o flyer-icon"></i> <strong>Duration:</strong></h5>
+                <p>2-Week Intensive Program</p>
+              </div>
+              <div class="col-md-6 text-left">
+                <h5><i class="fa fa-users flyer-icon"></i> <strong>Who:</strong></h5>
+                <p>Early career scientists<br>(Graduate students, Postdocs, Faculty)</p>
+                
+                <h5><i class="fa fa-graduation-cap flyer-icon"></i> <strong>What:</strong></h5>
+                <p>Hands-on AthenaK code training<br>Collaborative research projects<br>Cutting-edge computational astrophysics</p>
+              </div>
+            </div>
+            
+            <div class="flyer-included">
+              <h5><i class="fa fa-star flyer-icon"></i> <strong>What's Included:</strong></h5>
+              <ul>
+                <li>Morning lectures on computational astrophysics</li>
+                <li>Team-based research projects</li>
+                <li>Office space and computing resources</li>
+                <li>Accommodation provided</li>
+                <li>Travel funding available for eligible participants</li>
+              </ul>
+            </div>
+            
+            <div class="flyer-deadline">
+              <p><strong>Application Deadline:</strong> February 15, 2026</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flyer-download">
+          <button onclick="window.print()" class="btn btn-lg btn-success">
+            <i class="fa fa-print"></i> Print This Page
+          </button>
+        </div>
+        
+        <p style="margin-top: 20px; color: #7b8a8b;">
+          <small><i class="fa fa-share"></i> Share this flyer with colleagues and students who might be interested!</small>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+#flyer {
+  background-image: url('img/slice_x_07000_128.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 600px;
+  padding: 60px 0;
+  position: relative;
+}
+
+#flyer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(248, 249, 250, 0.3));
+  z-index: 1;
+}
+
+#flyer .container {
+  position: relative;
+  z-index: 2;
+}
+
+.flyer-container {
+  border: 2px solid #2c5aa0;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.flyer-header h3 {
+  color: #1a252f;
+  margin-bottom: 15px;
+}
+
+.flyer-header h4 {
+  color: #2c5aa0;
+  margin-bottom: 20px;
+}
+
+.flyer-icon {
+  color: #2c5aa0;
+}
+
+.flyer-included {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #dee2e6;
+}
+
+.flyer-included h5 {
+  color: #1a252f;
+}
+
+.flyer-included ul {
+  text-align: left;
+  display: inline-block;
+}
+
+.flyer-deadline {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e7f1ff;
+  border-radius: 5px;
+}
+
+.flyer-deadline p {
+  margin: 0;
+  color: #1a252f;
+}
+
+@media (max-width: 768px) {
+  #flyer {
+    background-size: 80% !important;
+    background-position: center top !important;
+  }
+}
+
+@media print {
+  #flyer {
+    background: none !important;
+  }
+  
+  #flyer::before {
+    display: none !important;
+  }
+  
+  .flyer-container {
+    border: 2px solid #000 !important;
+    background-color: #fff !important;
+    page-break-inside: avoid;
+  }
+  
+  .flyer-download {
+    display: none !important;
+  }
+  
+  section:not(#flyer) {
+    display: none !important;
+  }
+  
+  .navbar, .footer {
+    display: none !important;
+  }
+}
+</style>
