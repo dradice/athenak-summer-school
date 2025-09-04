@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 10
-img: placeholder.jpg
+img: hengrui_zhu.jpg
 alt: Hengrui Zhu Photo
 name: Hengrui Zhu
 affiliation: Princeton University
