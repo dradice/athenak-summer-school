@@ -3,7 +3,8 @@ layout: default
 modal-id: 7
 img: james_stone.jpg
 alt: James Stone Photo
-name: James Stone
+firstname: James
+surname: Stone
 affiliation: Institute for Advanced Study
 research-area: Computational Magnetohydrodynamics
 website: https://www.ias.edu/sns/james-stone-personal-page

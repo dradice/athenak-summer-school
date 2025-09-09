@@ -3,7 +3,8 @@ layout: default
 modal-id: 5
 img: goni_halevi.jpg
 alt: Goni Halevi Photo
-name: Goni Halevi
+firstname: Goni
+surname: Halevi
 affiliation: Illinois Institute of Technology
 research-area: High-Energy Transients & Nuclear Astrophysics
 website: https://gonihalevi.github.io/

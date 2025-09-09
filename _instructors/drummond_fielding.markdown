@@ -3,7 +3,8 @@ layout: default
 modal-id: 3
 img: drummond_fielding.jpg
 alt: Drummond Fielding Photo
-name: Drummond Fielding
+firstname: Drummond
+surname: Fielding
 affiliation: New York University
 research-area: Galactic Outflows & Interstellar Medium
 website: https://dfielding14.github.io/

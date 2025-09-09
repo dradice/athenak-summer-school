@@ -3,7 +3,8 @@ layout: default
 modal-id: 1
 img: alan_lam.jpg
 alt: Alan Lam Photo
-name: Alan Lam
+firstname: Alan
+surname: Lam
 affiliation: Penn State University
 research-area: Computational Relativistic Astrophysics
 website: https://www.aei.mpg.de/person/114357

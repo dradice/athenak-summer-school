@@ -3,7 +3,8 @@ layout: default
 modal-id: 9
 img: lizhong_zhang.jpg
 alt: Lizhong Zhang Photo
-name: Lizhong Zhang
+firstname: Lizhong
+surname: Zhang
 affiliation: Institute for Advanced Study
 research-area: Computational Astrophysics & Black Holes
 website: 

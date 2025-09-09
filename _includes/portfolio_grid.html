@@ -8,13 +8,14 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for instructor in site.instructors | sort: 'name' %}
+      {% assign sorted_instructors = site.instructors | sort: 'surname' %}
+      {% for instructor in sorted_instructors %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#instructorModal-{{ instructor.modal-id }}" class="portfolio-link" data-toggle="modal">
           <img src="img/instructors/{{ instructor.img }}" class="img-responsive" alt="{{ instructor.alt }}">
         </a>
         <div class="instructor-info text-center">
-          <h4>{{ instructor.name }}</h4>
+          <h4>{{ instructor.firstname }} {{ instructor.surname }}</h4>
           <p>{{ instructor.affiliation }}</p>
         </div>
       </div>

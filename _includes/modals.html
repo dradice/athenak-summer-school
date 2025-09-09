@@ -1,5 +1,6 @@
 <!-- Instructor Modals -->
-{% for instructor in site.instructors | sort: 'name' %}
+{% assign sorted_instructors = site.instructors | sort: 'surname' %}
+{% for instructor in sorted_instructors %}
 <div class="portfolio-modal modal fade" id="instructorModal-{{ instructor.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
@@ -13,7 +14,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ instructor.name }}</h2>
+            <h2>{{ instructor.firstname }} {{ instructor.surname }}</h2>
             <hr class="star-primary">
             <img src="img/instructors/{{ instructor.img }}" class="img-responsive img-centered" alt="{{ instructor.alt }}">
             {% if instructor.bio %}

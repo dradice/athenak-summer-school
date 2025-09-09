@@ -3,7 +3,8 @@ layout: default
 modal-id: 10
 img: hengrui_zhu.jpg
 alt: Hengrui Zhu Photo
-name: Hengrui Zhu
+firstname: Hengrui
+surname: Zhu
 affiliation: Princeton University
 research-area: Black Hole Physics & Gravitational Waves
 website: 
