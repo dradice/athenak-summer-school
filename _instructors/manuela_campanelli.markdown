@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 11
-img: placeholder.jpg
+img: manuela_campanelli.jpg
 alt: Manuela Campanelli Photo
 firstname: Manuela
 surname: Campanelli
