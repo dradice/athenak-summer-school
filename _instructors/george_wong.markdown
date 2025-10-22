@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 13
-img: placeholder.jpg
+img: george_wang.jpg
 alt: George Wong Photo
 firstname: George
 surname: Wong
