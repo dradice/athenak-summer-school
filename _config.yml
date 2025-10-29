@@ -40,6 +40,10 @@ credits: 'David Radice'
 markdown: kramdown
 permalink: pretty
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+
 # Collections
 collections:
   instructors:
