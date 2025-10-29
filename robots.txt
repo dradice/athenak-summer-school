@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dradice.github.io/athenak-summer-school/sitemap.xml
