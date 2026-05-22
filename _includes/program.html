@@ -1,0 +1,122 @@
+<!-- Program Section -->
+<section id="program">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Program</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        {% assign sessions_by_day = site.sessions | sort: 'day' | group_by: 'day' %}
+        {% for day_group in sessions_by_day %}
+          {% assign day_date = day_group.name | append: " 00:00:00 -0400" | date: "%A, %B %-d, %Y" %}
+          <h3 class="program-day">{{ day_date }}</h3>
+          <ul class="program-list">
+            {% assign day_sessions = day_group.items | sort: 'start_time' %}
+            {% for session in day_sessions %}
+              <li class="program-session program-session--{{ session.type }}">
+                <div class="program-time">
+                  {{ session.start_time }}&ndash;{{ session.end_time }}
+                </div>
+                <div class="program-content">
+                  <div class="program-title">{{ session.title }}</div>
+                  {% if session.speaker %}
+                    <div class="program-speaker">
+                      {% if session.modal-id %}
+                        <a href="#instructorModal-{{ session.modal-id }}" data-toggle="modal">{{ session.speaker }}</a>
+                      {% else %}
+                        {{ session.speaker }}
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if session.note %}
+                    <div class="program-note">{{ session.note }}</div>
+                  {% endif %}
+                  {% if session.location %}
+                    <div class="program-location">{{ session.location }}</div>
+                  {% endif %}
+                  {% if session.recording_url %}
+                    <div class="program-recording">
+                      <a href="{{ session.recording_url }}" target="_blank" rel="noopener">Watch recording</a>
+                    </div>
+                  {% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  #program .program-day {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #{{ site.color.primary }};
+    border-bottom: 2px solid #{{ site.color.primary }};
+    padding-bottom: 0.3em;
+  }
+  #program .program-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2em;
+  }
+  #program .program-session {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75em 1em;
+    border-left: 4px solid #ccc;
+    margin-bottom: 0.4em;
+    background: #fafafa;
+  }
+  #program .program-session--lecture {
+    border-left-color: #{{ site.color.primary }};
+    background: #fff;
+  }
+  #program .program-session--breakout {
+    border-left-color: #f0ad4e;
+    background: #fff9ef;
+  }
+  #program .program-session--break {
+    border-left-color: #ccc;
+    background: #f5f5f5;
+    color: #777;
+  }
+  #program .program-time {
+    flex: 0 0 130px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  #program .program-content {
+    flex: 1;
+  }
+  #program .program-title {
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+  #program .program-speaker {
+    margin-top: 0.2em;
+  }
+  #program .program-note,
+  #program .program-location {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.15em;
+  }
+  #program .program-recording {
+    margin-top: 0.4em;
+  }
+  @media (max-width: 600px) {
+    #program .program-session {
+      flex-direction: column;
+    }
+    #program .program-time {
+      flex: none;
+      margin-bottom: 0.3em;
+    }
+  }
+</style>

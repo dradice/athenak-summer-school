@@ -1,0 +1,11 @@
+---
+day: 2026-07-17
+start_time: "10:45"
+end_time: "12:00"
+title: GRMHD in AthenaK
+type: lecture
+location: Forum 111
+speaker: Jacob Fields
+modal-id: 6
+recording_url:
+---

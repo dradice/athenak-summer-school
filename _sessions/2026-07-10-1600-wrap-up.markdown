@@ -1,0 +1,10 @@
+---
+day: 2026-07-10
+start_time: "16:00"
+end_time: "17:00"
+title: Wrap up
+type: breakout
+location: Osmond 101
+note: Students report on newly formed groups
+recording_url:
+---

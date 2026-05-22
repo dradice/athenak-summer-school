@@ -1,0 +1,10 @@
+---
+day: 2026-07-07
+start_time: "15:30"
+end_time: "16:30"
+title: Student talks
+type: lecture
+location: Osmond 101
+note: 5+3 minutes per student
+recording_url:
+---

@@ -8,3 +8,6 @@ _site
 Gemfile.lock
 
 emails/
+
+gen_sessions.py
+program.csv

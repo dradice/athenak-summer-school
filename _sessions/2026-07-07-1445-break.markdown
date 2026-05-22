@@ -1,0 +1,8 @@
+---
+day: 2026-07-07
+start_time: "14:45"
+end_time: "15:30"
+title: Break
+type: break
+recording_url:
+---

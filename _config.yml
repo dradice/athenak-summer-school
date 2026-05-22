@@ -48,11 +48,18 @@ plugins:
 collections:
   instructors:
     output: false
+  sessions:
+    output: false
 
 #for instructors
 defaults:
   - scope:
       path: ""
       type: "instructors"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "sessions"
     values:
       layout: "default"

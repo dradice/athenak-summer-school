@@ -1,0 +1,8 @@
+---
+day: 2026-07-16
+start_time: "12:00"
+end_time: "13:30"
+title: Lunch break
+type: break
+recording_url:
+---
