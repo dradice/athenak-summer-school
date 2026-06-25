@@ -1,6 +1,6 @@
 ---
 day: 2026-07-10
-start_time: "14:45"
+start_time: "13:30"
 end_time: "16:00"
 title: Breakout rooms
 type: breakout
