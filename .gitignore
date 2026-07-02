@@ -11,3 +11,8 @@ emails/
 
 gen_sessions.py
 program.csv
+
+CLAUDE.md
+
+.bundle/
+vendor/

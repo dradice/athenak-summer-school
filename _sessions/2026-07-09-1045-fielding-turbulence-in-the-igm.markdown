@@ -2,10 +2,10 @@
 day: 2026-07-09
 start_time: "10:45"
 end_time: "12:00"
-title: Companion Disk Interaction
+title: Turbulence in the IGM
 type: lecture
 location: Osmond 101
-speaker: Zhaohuan Zhu
-modal-id: 8
+speaker: Drummond Fielding
+modal-id: 3
 recording_url:
 ---
