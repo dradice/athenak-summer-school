@@ -2,7 +2,7 @@
 day: 2026-07-09
 start_time: "10:45"
 end_time: "12:00"
-title: Turbulence in the IGM
+title: Multiphase Turbulence
 type: lecture
 location: Osmond 101
 speaker: Drummond Fielding
