@@ -21,7 +21,17 @@
                   {{ session.start_time }}&ndash;{{ session.end_time }}
                 </div>
                 <div class="program-content">
-                  <div class="program-title">{{ session.title }}</div>
+                  {% assign student_talks_block = nil %}
+                  {% if session.title == "Student talks" %}
+                    {% assign student_talks_block = site.data.student_talks | where: "day", session.day | where: "start_time", session.start_time | first %}
+                  {% endif %}
+                  <div class="program-title">
+                    {% if student_talks_block %}
+                      <a href="#studentTalksModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" data-toggle="modal">{{ session.title }}</a>
+                    {% else %}
+                      {{ session.title }}
+                    {% endif %}
+                  </div>
                   {% if session.speaker %}
                     <div class="program-speaker">
                       {% if session.modal-id %}

@@ -11,6 +11,8 @@ emails/
 
 gen_sessions.py
 program.csv
+gen_student_talks.py
+Program - Student Talks.csv
 
 CLAUDE.md
 

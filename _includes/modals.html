@@ -46,3 +46,87 @@
   </div>
 </div>
 {% endfor %}
+
+<!-- Student Talks Modals -->
+{% for block in site.data.student_talks %}
+{% assign block_session = site.sessions | where: "day", block.day | where: "start_time", block.start_time | first %}
+<div class="portfolio-modal modal fade" id="studentTalksModal-{{ block.day }}-{{ block.start_time | remove: ':' }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Student Talks</h2>
+            {% if block_session %}
+              <p class="student-talks-time">{{ block.day | append: " 00:00:00 -0400" | date: "%A, %B %-d, %Y" }}, {{ block_session.start_time }}&ndash;{{ block_session.end_time }}</p>
+            {% endif %}
+            <hr class="star-primary">
+            <ul class="student-talks-list">
+              {% for talk in block.talks %}
+              <li class="student-talk">
+                <div class="student-talk-time">{{ talk.time }}</div>
+                <div class="student-talk-content">
+                  <div class="student-talk-title">{{ talk.title }}</div>
+                  <div class="student-talk-name">{{ talk.student }}</div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<style>
+  .student-talks-time {
+    color: #777;
+    margin-top: -0.5em;
+  }
+  .student-talks-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+  }
+  .student-talks-list .student-talk {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.6em 0;
+    border-bottom: 1px solid #eee;
+  }
+  .student-talks-list .student-talk-time {
+    flex: 0 0 150px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #555;
+    white-space: nowrap;
+  }
+  .student-talks-list .student-talk-title {
+    font-weight: bold;
+  }
+  .student-talks-list .student-talk-name {
+    color: #666;
+    font-size: 0.95em;
+    margin-top: 0.1em;
+  }
+  @media (max-width: 600px) {
+    .student-talks-list .student-talk {
+      flex-direction: column;
+    }
+    .student-talks-list .student-talk-time {
+      flex: none;
+      margin-bottom: 0.2em;
+    }
+  }
+</style>
