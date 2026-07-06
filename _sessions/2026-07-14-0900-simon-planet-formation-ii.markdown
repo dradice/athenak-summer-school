@@ -7,5 +7,6 @@ type: lecture
 location: Forum 105
 speaker: Jake Simon
 modal-id: 14
+slides:
 recording_url:
 ---

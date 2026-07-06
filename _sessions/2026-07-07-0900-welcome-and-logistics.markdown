@@ -5,5 +5,8 @@ end_time: "09:15"
 title: Welcome and logistics
 type: lecture
 location: Osmond 101
+speaker: David Radice
+modal-id: 2
+slides: welcome.pdf
 recording_url:
 ---

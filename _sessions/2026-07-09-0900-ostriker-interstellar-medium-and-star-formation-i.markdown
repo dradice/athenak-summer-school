@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 101
 speaker: Eve Ostriker
 modal-id: 4
+slides:
 recording_url:
 ---

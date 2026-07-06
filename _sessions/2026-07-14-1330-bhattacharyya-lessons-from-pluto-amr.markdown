@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 106
 speaker: Maitraya Bhattacharyya
 modal-id: 17
+slides:
 recording_url:
 ---

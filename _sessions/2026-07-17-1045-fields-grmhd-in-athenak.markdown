@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Jacob Fields
 modal-id: 6
+slides:
 recording_url:
 ---

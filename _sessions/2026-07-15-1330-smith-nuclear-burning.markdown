@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Alexander Smith
 modal-id: 15
+slides:
 recording_url:
 ---

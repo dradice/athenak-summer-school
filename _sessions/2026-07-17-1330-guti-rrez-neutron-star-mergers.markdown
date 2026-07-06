@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Eduardo Gutiérrez
 modal-id: 16
+slides:
 recording_url:
 ---

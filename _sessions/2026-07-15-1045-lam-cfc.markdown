@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Tsz Lok (Alan) Lam
 modal-id: 1
+slides:
 recording_url:
 ---

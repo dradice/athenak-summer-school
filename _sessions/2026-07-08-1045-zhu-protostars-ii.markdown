@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 101
 speaker: Zhaohuan Zhu
 modal-id: 8
+slides:
 recording_url:
 ---

@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Lizhong Zhang
 modal-id: 9
+slides:
 recording_url:
 ---

@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 101
 speaker: Jim Stone
 modal-id: 7
+slides:
 recording_url:
 ---

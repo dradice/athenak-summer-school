@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 101
 speaker: Drummond Fielding
 modal-id: 3
+slides:
 recording_url:
 ---

@@ -89,6 +89,56 @@
 </div>
 {% endfor %}
 
+<!-- Talk Modals -->
+{% assign talk_sessions = site.sessions | where_exp: "s", "s.speaker or s.slides or s.recording_url" %}
+{% for session in talk_sessions %}
+<div class="portfolio-modal modal fade" id="talkModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ session.title }}</h2>
+            <p class="talk-time">
+              {{ session.day | append: " 00:00:00 -0400" | date: "%A, %B %-d, %Y" }}, {{ session.start_time }}&ndash;{{ session.end_time }}
+              {% if session.location %} &middot; {{ session.location }}{% endif %}
+            </p>
+            <hr class="star-primary">
+            {% if session.speaker %}
+              <p class="talk-speaker">{{ session.speaker }}</p>
+            {% endif %}
+            {% if session.note %}
+              <p class="talk-note">{{ session.note }}</p>
+            {% endif %}
+            {% if session.slides or session.recording_url %}
+              <ul class="list-inline item-details talk-links">
+                {% if session.slides %}
+                  <li><a href="slides/{{ session.slides }}" target="_blank"><i class="fa fa-file-pdf"></i> Slides</a></li>
+                {% endif %}
+                {% if session.recording_url %}
+                  <li><a href="{{ session.recording_url }}" target="_blank" rel="noopener"><i class="fa fa-video"></i> Recording</a></li>
+                {% endif %}
+              </ul>
+            {% else %}
+              <p class="talk-links-pending">Slides and recording will be posted here when available.</p>
+            {% endif %}
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
 <style>
   .student-talks-time {
     color: #777;
@@ -128,5 +178,27 @@
       flex: none;
       margin-bottom: 0.2em;
     }
+  }
+  .talk-time {
+    color: #777;
+    margin-top: -0.5em;
+  }
+  .talk-speaker {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .talk-note {
+    color: #333;
+    text-align: left;
+  }
+  .talk-links {
+    margin: 20px 0;
+  }
+  .talk-links li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .talk-links-pending {
+    color: #999;
+    font-style: italic;
   }
 </style>

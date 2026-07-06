@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Maitraya Bhattacharyya
 modal-id: 17
+slides:
 recording_url:
 ---

@@ -28,6 +28,8 @@
                   <div class="program-title">
                     {% if student_talks_block %}
                       <a href="#studentTalksModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" data-toggle="modal">{{ session.title }}</a>
+                    {% elsif session.speaker or session.slides or session.recording_url %}
+                      <a href="#talkModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" data-toggle="modal">{{ session.title }}</a>
                     {% else %}
                       {{ session.title }}
                     {% endif %}
@@ -46,11 +48,6 @@
                   {% endif %}
                   {% if session.location %}
                     <div class="program-location">{{ session.location }}</div>
-                  {% endif %}
-                  {% if session.recording_url %}
-                    <div class="program-recording">
-                      <a href="{{ session.recording_url }}" target="_blank" rel="noopener">Watch recording</a>
-                    </div>
                   {% endif %}
                 </div>
               </li>
@@ -116,9 +113,6 @@
     font-size: 0.9em;
     color: #666;
     margin-top: 0.15em;
-  }
-  #program .program-recording {
-    margin-top: 0.4em;
   }
   @media (max-width: 600px) {
     #program .program-session {

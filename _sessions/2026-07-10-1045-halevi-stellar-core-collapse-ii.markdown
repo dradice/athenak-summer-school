@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 101
 speaker: Goni Halevi
 modal-id: 5
+slides:
 recording_url:
 ---

@@ -7,5 +7,6 @@ type: lecture
 location: Forum 105
 speaker: George Wong
 modal-id: 13
+slides:
 recording_url:
 ---

@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: Manuela Campanelli
 modal-id: 11
+slides:
 recording_url:
 ---

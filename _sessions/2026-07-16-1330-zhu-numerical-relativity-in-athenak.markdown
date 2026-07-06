@@ -7,5 +7,6 @@ type: lecture
 location: Osmond 106
 speaker: Hengrui Zhu
 modal-id: 10
+slides:
 recording_url:
 ---

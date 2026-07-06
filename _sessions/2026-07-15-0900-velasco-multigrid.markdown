@@ -7,5 +7,6 @@ type: lecture
 location: Forum 111
 speaker: David Velasco
 modal-id: 12
+slides:
 recording_url:
 ---
