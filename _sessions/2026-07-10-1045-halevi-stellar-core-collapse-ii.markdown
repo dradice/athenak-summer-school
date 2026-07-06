@@ -4,7 +4,7 @@ start_time: "10:45"
 end_time: "12:00"
 title: Stellar core-collapse II
 type: lecture
-location: Osmond 101
+location: Health and Hum Dev 254
 speaker: Goni Halevi
 modal-id: 5
 slides:

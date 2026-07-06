@@ -4,7 +4,7 @@ start_time: "09:15"
 end_time: "10:30"
 title: AthenaK I
 type: lecture
-location: Osmond 101
+location: Health and Hum Dev 254
 speaker: Jim Stone
 modal-id: 7
 slides:

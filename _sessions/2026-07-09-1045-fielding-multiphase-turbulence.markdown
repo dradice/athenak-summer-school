@@ -4,7 +4,7 @@ start_time: "10:45"
 end_time: "12:00"
 title: Multiphase Turbulence
 type: lecture
-location: Osmond 101
+location: Health and Hum Dev 254
 speaker: Drummond Fielding
 modal-id: 3
 slides:

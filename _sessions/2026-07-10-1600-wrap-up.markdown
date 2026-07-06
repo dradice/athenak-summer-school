@@ -4,7 +4,7 @@ start_time: "16:00"
 end_time: "17:00"
 title: Wrap up
 type: breakout
-location: Osmond 101
+location: Health and Hum Dev 254
 note: Students report on newly formed groups
 recording_url:
 ---
