@@ -4,7 +4,7 @@ start_time: "13:30"
 end_time: "14:45"
 title: Numerical relativity in AthenaK
 type: lecture
-location: Osmond 106
+location: Wartik 110
 speaker: Hengrui Zhu
 modal-id: 10
 slides:

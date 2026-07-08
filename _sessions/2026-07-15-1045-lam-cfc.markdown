@@ -4,7 +4,7 @@ start_time: "10:45"
 end_time: "12:00"
 title: CFC
 type: lecture
-location: Forum 111
+location: Wartik 110
 speaker: Tsz Lok (Alan) Lam
 modal-id: 1
 slides:

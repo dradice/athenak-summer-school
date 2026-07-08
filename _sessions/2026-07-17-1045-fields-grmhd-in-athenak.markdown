@@ -4,7 +4,7 @@ start_time: "10:45"
 end_time: "12:00"
 title: GRMHD in AthenaK
 type: lecture
-location: Forum 111
+location: Wartik 110
 speaker: Jacob Fields
 modal-id: 6
 slides:

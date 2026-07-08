@@ -4,7 +4,7 @@ start_time: "17:00"
 end_time: "18:00"
 title: Wrap up
 type: breakout
-location: Osmond 106
+location: Wartik 110
 note: Students report on progress / challenges
 recording_url:
 ---

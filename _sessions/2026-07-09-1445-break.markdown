@@ -1,8 +1,0 @@
----
-day: 2026-07-09
-start_time: "14:45"
-end_time: "15:30"
-title: Break
-type: break
-recording_url:
----

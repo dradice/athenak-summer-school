@@ -4,7 +4,7 @@ start_time: "10:45"
 end_time: "12:00"
 title: Numerical relativity II
 type: lecture
-location: Forum 105
+location: Wartik 110
 speaker: Manuela Campanelli
 modal-id: 11
 slides:

@@ -1,7 +1,7 @@
 ---
 day: 2026-07-09
 start_time: "12:00"
-end_time: "13:30"
+end_time: "14:00"
 title: Lunch break
 type: break
 recording_url:

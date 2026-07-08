@@ -1,7 +1,7 @@
 ---
 day: 2026-07-09
-start_time: "16:30"
-end_time: "16:45"
+start_time: "15:00"
+end_time: "15:30"
 title: Break
 type: break
 recording_url:

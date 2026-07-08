@@ -4,7 +4,7 @@ start_time: "10:45"
 end_time: "12:00"
 title: Particles in AthenaK
 type: lecture
-location: Forum 105
+location: Wartik 110
 speaker: George Wong
 modal-id: 13
 slides:

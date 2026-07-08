@@ -4,7 +4,7 @@ start_time: "09:00"
 end_time: "10:15"
 title: Planet formation I
 type: lecture
-location: Forum 111
+location: Wartik 110
 speaker: Jake Simon
 modal-id: 14
 slides:
