@@ -7,6 +7,6 @@ type: lecture
 location: Health and Hum Dev 254
 speaker: Jim Stone
 modal-id: 7
-slides:
-recording_url:
+slides: stone-athenak-i-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_ret3sp5x
 ---
