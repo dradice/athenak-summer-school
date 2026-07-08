@@ -108,7 +108,15 @@
             <h2>{{ session.title }}</h2>
             <p class="talk-time">
               {{ session.day | append: " 00:00:00 -0400" | date: "%A, %B %-d, %Y" }}, {{ session.start_time }}&ndash;{{ session.end_time }}
-              {% if session.location %} &middot; {{ session.location }}{% endif %}
+              {% if session.location %}
+                {% assign location_url = site.data.locations[session.location] %}
+                &middot;
+                {% if location_url %}
+                  <a href="{{ location_url }}" target="_blank" rel="noopener">{{ session.location }}</a>
+                {% else %}
+                  {{ session.location }}
+                {% endif %}
+              {% endif %}
             </p>
             <hr class="star-primary">
             {% if session.speaker %}

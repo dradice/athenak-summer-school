@@ -47,7 +47,14 @@
                     <div class="program-note">{{ session.note }}</div>
                   {% endif %}
                   {% if session.location %}
-                    <div class="program-location">{{ session.location }}</div>
+                    {% assign location_url = site.data.locations[session.location] %}
+                    <div class="program-location">
+                      {% if location_url %}
+                        <a href="{{ location_url }}" target="_blank" rel="noopener">{{ session.location }}</a>
+                      {% else %}
+                        {{ session.location }}
+                      {% endif %}
+                    </div>
                   {% endif %}
                 </div>
               </li>
