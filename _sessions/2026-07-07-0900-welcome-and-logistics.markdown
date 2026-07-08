@@ -7,6 +7,6 @@ type: lecture
 location: Health and Hum Dev 254
 speaker: David Radice
 modal-id: 2
-slides: welcome.pdf
+slides: welcome-slides.pdf
 recording_url:
 ---

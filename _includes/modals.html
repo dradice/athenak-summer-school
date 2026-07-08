@@ -90,7 +90,7 @@
 {% endfor %}
 
 <!-- Talk Modals -->
-{% assign talk_sessions = site.sessions | where_exp: "s", "s.speaker or s.slides or s.recording_url" %}
+{% assign talk_sessions = site.sessions | where_exp: "s", "s.speaker or s.slides or s.notes or s.recording_url" %}
 {% for session in talk_sessions %}
 <div class="portfolio-modal modal fade" id="talkModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" tabindex="-1" role="dialog"
   aria-hidden="true">
@@ -125,10 +125,13 @@
             {% if session.note %}
               <p class="talk-note">{{ session.note }}</p>
             {% endif %}
-            {% if session.slides or session.recording_url %}
+            {% if session.slides or session.notes or session.recording_url %}
               <ul class="list-inline item-details talk-links">
                 {% if session.slides %}
                   <li><a href="slides/{{ session.slides }}" target="_blank"><i class="fa fa-file-pdf"></i> Slides</a></li>
+                {% endif %}
+                {% if session.notes %}
+                  <li><a href="slides/{{ session.notes }}" target="_blank"><i class="fa fa-file-lines"></i> Lecture Notes</a></li>
                 {% endif %}
                 {% if session.recording_url %}
                   <li><a href="{{ session.recording_url }}" target="_blank" rel="noopener"><i class="fa fa-video"></i> Recording</a></li>

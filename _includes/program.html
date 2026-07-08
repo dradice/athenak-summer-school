@@ -28,7 +28,7 @@
                   <div class="program-title">
                     {% if student_talks_block %}
                       <a href="#studentTalksModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" data-toggle="modal">{{ session.title }}</a>
-                    {% elsif session.speaker or session.slides or session.recording_url %}
+                    {% elsif session.speaker or session.slides or session.notes or session.recording_url %}
                       <a href="#talkModal-{{ session.day }}-{{ session.start_time | remove: ':' }}" data-toggle="modal">{{ session.title }}</a>
                     {% else %}
                       {{ session.title }}
