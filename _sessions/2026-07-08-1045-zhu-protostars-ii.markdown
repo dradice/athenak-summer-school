@@ -7,6 +7,6 @@ type: lecture
 location: Health and Hum Dev 254
 speaker: Zhaohuan Zhu
 modal-id: 8
-slides:
-recording_url:
+slides: zhu-companion-disk-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_yaft9v3v
 ---
