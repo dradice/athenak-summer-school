@@ -7,6 +7,6 @@ type: lecture
 location: Health and Hum Dev 254
 speaker: Maitraya Bhattacharyya
 modal-id: 17
-slides:
-recording_url:
+slides: bhattacharyya-lessons-from-pluto-amr-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_i9n93aob
 ---
