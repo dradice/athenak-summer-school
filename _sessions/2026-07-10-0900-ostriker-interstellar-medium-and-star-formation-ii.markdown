@@ -7,6 +7,6 @@ type: lecture
 location: Health and Hum Dev 254
 speaker: Eve Ostriker
 modal-id: 4
-slides:
-recording_url:
+slides: ostriker-ism-star-formation-ii-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_wl0x3m0z
 ---
