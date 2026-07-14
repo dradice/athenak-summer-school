@@ -7,6 +7,7 @@ type: lecture
 location: Wartik 110
 speaker: Lizhong Zhang
 modal-id: 9
-slides:
-recording_url:
+slides: zhang-radiation-transport-slides.pdf
+notes: zhang-radiation-transport-notes.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_t5dgqjz4
 ---
