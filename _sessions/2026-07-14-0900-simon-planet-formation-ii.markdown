@@ -7,6 +7,7 @@ type: lecture
 location: Wartik 110
 speaker: Jake Simon
 modal-id: 14
-slides:
-recording_url:
+slides: simon-planet-formation-ii-slides.pdf
+notes: simon-planet-formation-ii-notes.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_npqd3glq
 ---
