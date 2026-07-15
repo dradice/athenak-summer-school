@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Alexander Smith
 modal-id: 15
-slides:
+slides: smith-nuclear-burning-slides.pdf
 recording_url:
 ---
