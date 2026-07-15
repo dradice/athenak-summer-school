@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Tsz Lok (Alan) Lam
 modal-id: 1
-slides:
-recording_url:
+slides: lam-cfc-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_ru2056c5
 ---

@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: David Velasco
 modal-id: 12
-slides:
-recording_url:
+slides: velasco-multigrid-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_9w4rjite
 ---
