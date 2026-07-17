@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Hengrui Zhu
 modal-id: 10
-slides:
+slides: zhu-ai-workflows-for-athenak-slides.pdf
 recording_url:
 ---

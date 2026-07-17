@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Hengrui Zhu
 modal-id: 10
-slides:
-recording_url:
+slides: zhu-numerical-relativity-in-athenak-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_9fwayuui
 ---
