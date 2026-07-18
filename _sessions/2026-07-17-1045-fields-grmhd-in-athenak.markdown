@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Jacob Fields
 modal-id: 6
-slides:
+slides: fields-grmhd-in-athenak-slides.pdf
 recording_url:
 ---
