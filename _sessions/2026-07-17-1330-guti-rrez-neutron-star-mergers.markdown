@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Eduardo Gutiérrez
 modal-id: 16
-slides:
-recording_url:
+slides: guti-rrez-neutron-star-mergers-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_49k3osqa
 ---
