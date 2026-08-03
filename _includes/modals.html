@@ -73,7 +73,13 @@
               <li class="student-talk">
                 <div class="student-talk-time">{{ talk.time }}</div>
                 <div class="student-talk-content">
-                  <div class="student-talk-title">{{ talk.title }}</div>
+                  <div class="student-talk-title">
+                    {% if talk.slides %}
+                      <a href="{{ talk.slides }}" target="_blank" rel="noopener">{{ talk.title }}</a>
+                    {% else %}
+                      {{ talk.title }}
+                    {% endif %}
+                  </div>
                   <div class="student-talk-name">{{ talk.student }}</div>
                 </div>
               </li>
@@ -175,6 +181,14 @@
   }
   .student-talks-list .student-talk-title {
     font-weight: bold;
+  }
+  .student-talks-list .student-talk-title a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+  }
+  .student-talks-list .student-talk-title a:hover {
+    text-decoration-color: currentColor;
   }
   .student-talks-list .student-talk-name {
     color: #666;
