@@ -7,6 +7,6 @@ type: lecture
 location: Wartik 110
 speaker: Manuela Campanelli
 modal-id: 11
-slides:
-recording_url:
+slides: campanelli-supermassive-binary-black-holes-slides.pdf
+recording_url: https://psu.mediaspace.kaltura.com/media/1_4akhruzh
 ---
